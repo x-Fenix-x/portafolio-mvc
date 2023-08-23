@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Janeen",
+        "age": 75,
+        "married": true
+    },
+    {
+        "id": 2,
+        "name": "Dougie",
+        "age": 35,
+        "married": false
+    },
+    {
+        "id": 3,
+        "name": "Budd",
+        "age": 23,
+        "married": true
+    },
+    {
+        "id": 4,
+        "name": "Gypsy",
+        "age": 69,
+        "married": true
+    },
+    {
+        "id": 5,
+        "name": "Janel",
+        "age": 34,
+        "married": false
+    },
+    {
+        "id": 6,
+        "name": "Mela",
+        "age": 62,
+        "married": false
+    },
+    {
+        "id": 7,
+        "name": "Oswald",
+        "age": 69,
+        "married": true
+    }
+]

@@ -1,7 +1,10 @@
-*, ::before, ::after {
+*,
+::before,
+::after {
     box-sizing: inherit;
 }
-.mvc-top, .mvc-bottom {
+.mvc-top,
+.mvc-bottom {
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -10,8 +13,14 @@
     width: 100%;
     overflow: hidden;
 }
-body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Lato", sans-serif;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     margin: 10px 0;
 }
@@ -23,6 +32,9 @@ html {
     height: 100%;
     color: #777;
     line-height: 1.8;
+}
+a {
+    text-decoration: none;
 }
 .mvc-padding-16 {
     padding-top: 16px !important;
@@ -39,16 +51,18 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.mvc-black, .mvc-hover-black:hover {
+.mvc-black,
+.mvc-hover-black:hover {
     color: #fff !important;
     background-color: #000 !important;
 }
 .mvc-wide {
     letter-spacing: 10px;
 }
-.mvc-black, .mvc-hover-black:hover {
+.mvc-black,
+.mvc-hover-black:hover {
     color: #fff !important;
 }
 .mvc-center {
@@ -66,27 +80,26 @@ html {
 .mvc-container-img {
     display: flex;
     align-items: stretch;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 .mvc-img {
     width: 250px;
 }
 .bgimg-1,
-.bgimg-2{
+.bgimg-2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
 .bgimg-1 {
-    background-image: url("/images/hedgehog.jpg");
+    background-image: url('/images/hedgehog.jpg');
     min-height: 100%;
 }
 
 .bgimg-2 {
-    background-image: url("/images/lights.jpg");
+    background-image: url('/images/lights.jpg');
     min-height: 400px;
 }
 
@@ -119,7 +132,7 @@ html {
     .bgimg-1,
     .bgimg-2,
     .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
+        background-attachment: scroll;
+        min-height: 400px;
     }
 }

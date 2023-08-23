@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<%- include("partials/head.ejs",{ title : "Profile" }) %>
+
+    <body>
+        <%- include("partials/navbar.ejs") %>
+
+            <%- include("partials/header",{ title: "Profile" , page : "home" , clase : "bgimg-1" }) %>
+
+                <div class="mvc-content mvc-container mvc-padding-64" id="users">
+                    <h3 class="mvc-center">Perfil Data</h3>
+                </div>
+                <hr>
+                <ul>
+                    <li>Name: <%= user.name %></li>
+                    <li>Age: <%= user.age %></li>
+                    <li>Married: <%= user.married %></li>
+                </ul>
+    </body>
+
+</html>
