@@ -1,6 +1,6 @@
 # My Portfolio
 
-**Proyecto en express donde se intruduce el uso de:**
+**Proyecto en Express donde se introduce el uso de:**
 
 - Express generator
 - MVC
